@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: rgb(232, 234, 220);
+    }
+
+    .banner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #757575;
+      color: white;
+    }
+
+    .artist-name {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .menu a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .menu a:hover {
+      text-decoration: underline;
+    }
+    .email {
+      font-size: 16px;
+    }
+
+    h1{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .intro{
+        width: 30%;
+        text-align: justify;
+    }
+
+    .introduction{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .video-container {
+    width: auto;
+    max-width: 580px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #f0f0f0;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    transition: transform 0.3s, box-shadow 0.3s;  /* 添加过渡效果 */
+  }
+
+  .video-container:hover {
+    transform: scale(1.05);  /* 在鼠标悬停时放大元素 */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);  /* 在鼠标悬停时添加阴影 */
+  }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <div class="artist-name">CHU CHU</div>
+    <div class="menu">
+      <a href="#artwork">ART WORK</a>
+      <a href="#story">STORY</a>
+      <a href="#auction">AUCTION</a>
+      <a href="#exhibition">EXHIBITION</a>
+    </div>
+    <div class="email">chuchuart@gmail.com</div>
+  </div>
+    <!-- 添加新部分开始 -->
+    <section style="background-color: rgb(253, 249, 236);" class="introduction">
+        
+        <h1 style="margin-top: 50px;">Studio visit: Chu Chu</h1>
+        <div class="intro">
+        <p style="margin-bottom: 50px;">The Hangzhou-based artist on the studio as a space in which to ‘recreate a connection’ with nature, and why ‘the creative act is a combination of improvisation and slow refinement’.</p>
+        </div>
+    </section>
+      <!-- 添加新部分结束 -->
+    <!-- 插入的YouTube视频 -->
+    <!-- 插入并居中的YouTube视频 -->
+<div class="video-container"style="text-align: center; margin-top: 30px; margin-bottom: 50px;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/617RV_I2_Xo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <!-- 添加的页脚部分 -->
+<footer style="background-color: #7e7e7e; color: white; text-align: center; padding: 20px; margin-top: 50px;">
+    <p>© 2023 Chu Chu. All rights reserved.</p>
+  </footer>
+  
+</body>
+</html>
